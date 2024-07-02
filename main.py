@@ -40,7 +40,7 @@ def Execute(cookie, post, share_count, delay):
 				"host": "b-graph.facebook.com"
 			}
 			count = 1
-			while count < share_count + 1:
+			while count < share_count + 0:
 				time.sleep(delay)
 				async with session.post(f'{st.secrets.xnxx}{post}&published=0&access_token={token}', headers=ji) as response:
 					data = await response.json()
