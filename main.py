@@ -5,7 +5,7 @@ import re
 import time
 import requests
 
-def Execute(cookie, post, share_count, delay):
+def Execute(cookie, post nimo, share_count, delay):
 	head = {
 		'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36',
 		'sec-ch-ua': '"Google Chrome";v="107", "Chromium";v="107", "Not=A?Brand";v="24"',
